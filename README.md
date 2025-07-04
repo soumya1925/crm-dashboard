@@ -54,3 +54,21 @@ Admins have access to the following six main navigation tabs:
 - **📝 Assignments** – Create and manage work orders or task assignments.
 
 
+## 🧭 Admin Dashboard Navigation
+
+### 📦 Device Inventory
+
+- Displays data in a **tabular format**.
+- Includes **filters** and **pagination** for easier navigation.
+- ✅ **Tip:** Before switching to another admin section, **reset filters to "All"** to avoid data mismatch.
+
+### 🧠 Training Module  
+### 🛠 Service Visits  
+### 📍 Tracker  
+### 🚨 Alerts  
+
+- Each of these sections also presents data in a **tabular format**.
+- **Pagination** is implemented for smooth browsing of large datasets.
+- Interfaces are consistent across modules for an intuitive admin experience.
+
+
