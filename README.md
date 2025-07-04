@@ -102,6 +102,47 @@ This section includes two primary actions:
 
 > 🔒 Once done, it's recommended to **log out** from the Admin view.
 
+## 👨‍🔧 Technician View
+
+To access the Technician Dashboard:
+
+1. Use the credentials from the `public/roleData.json` file or the sample credentials provided earlier.
+2. Make sure you log in with the **technician to whom the ticket was assigned** in the Admin view.
+
+---
+
+### 🧾 Ticket Validation
+
+- If you see the message:  
+  **"No Tickets have been assigned to you"**,  
+  you’ve logged in with the **wrong technician** (no tickets were assigned to this user).
+
+- If you see a **yellow card** indicating a ticket has been assigned, you're logged in with the **correct technician**.
+
+---
+
+### 🎓 Training Module
+
+- Navigate to the **Training Module** after confirming ticket assignment.
+- You will see a form with pre-filled (non-editable) fields:
+  - **Device Type**
+  - **Device ID**
+  - **Facility**
+- Fill in the remaining fields to complete the form.
+- File upload (photo or attachment) is **optional**.
+- After completing the form, click **Submit**.
+
+---
+
+### 🔁 Post-Submission Workflow
+
+- Log out from the **Technician view** after form submission.
+- Log back in as an **Admin**.
+- Go to:
+  - **Service Visits** – to verify if the submitted service form is reflected.
+  - **Alerts** – to check if any system alerts or updates have been triggered.
+
+
 
 
 
