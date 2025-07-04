@@ -38,7 +38,7 @@ Upon successful login as an **Admin**, you are redirected to the Admin Dashboard
 
 ### 📊 Dashboard Overview
 
-- The dashboard displays a **bar graph** and a **pie chart**.
+- The dashboard displays a **bar graph** and  **pie charts**.
 - These charts are **fully dynamic** — their data updates automatically based on the selected or changing fields.
 - Visualizations provide quick insights into key metrics and system data.
 
