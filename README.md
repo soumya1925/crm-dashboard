@@ -236,5 +236,10 @@ To access the Technician Dashboard:
 
 
 
+## 📩 Contact
+
+If you encounter any issues or have questions about this project, feel free to reach out:
+
+📧 Email: [soumyaroul19@gmail.com](mailto:soumyaroul19@gmail.com)
 
 
