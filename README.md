@@ -23,5 +23,12 @@ This JSON contains sample users for both **Admin** and **Technician** roles.
   "password": "password123",
   "role": "admin"
 }
+{
+  "name": "Bob Smith",
+  "email": "bob.smith@example.com",
+  "password": "techpass1",
+  "role": "technician",
+  "workstatus": "available"
+}
 
 
