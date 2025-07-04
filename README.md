@@ -71,4 +71,37 @@ Admins have access to the following six main navigation tabs:
 - **Pagination** is implemented for smooth browsing of large datasets.
 - Interfaces are consistent across modules for an intuitive admin experience.
 
+ ### 📝 Assignments
+
+In the **Assignments** section, you'll find a **dynamic pie chart** displaying the distribution of tasks or devices.
+
+This section includes two primary actions:
+
+---
+
+#### 1️⃣ Device Registration
+
+- Click the **"Device Registration"** button to open the device registration form.
+- Fill out the form carefully.
+- ⚠️ **Important:** Ensure the `Device ID` is **unique** — it must not duplicate existing IDs.
+  - Example formats: `DEV-4001`, `MED-5001`, etc.
+- Once the form is submitted:
+  - Return to the **Dashboard** and check if the total number of devices has changed.
+  - Verify the addition by reviewing the **Device Inventory** and **Tracker** tables.
+
+> ✅ This confirms that **CRUD operations** using **localStorage** are successfully implemented.
+
+---
+
+#### 2️⃣ Generate Ticket
+
+- Click the **"Generate Ticket"** button.
+- A dropdown appears to **select a technician** for assignment.
+- After selecting a technician, click **"Assign Task"**.
+- An alert will pop up confirming that a **ticket has been successfully generated** for the selected technician.
+
+> 🔒 Once done, it's recommended to **log out** from the Admin view.
+
+
+
 
