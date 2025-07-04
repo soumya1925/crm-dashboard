@@ -18,18 +18,81 @@ This JSON contains sample users for both **Admin** and **Technician** roles.
 **Admin:**
 ```json
 {
-  "name": "Alice Johnson",
-  "email": "alice.johnson@example.com",
-  "password": "password123",
-  "role": "admin"
-}
-{
-  "name": "Bob Smith",
-  "email": "bob.smith@example.com",
-  "password": "techpass1",
-  "role": "technician",
-  "workstatus": "available"
-}
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "password": "password123",
+      "role": "admin"
+    },
+    {
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "password": "techpass1",
+      "role": "technician",
+      "workstatus": "available"
+    },
+    {
+      "name": "Carol Davis",
+      "email": "carol.davis@example.com",
+      "password": "techpass2",
+      "role": "technician",
+      "workstatus": "available"
+    },
+    {
+      "name": "David Lee",
+      "email": "david.lee@example.com",
+      "password": "techpass3",
+      "role": "technician",
+      "workstatus": "unavailable"
+    },
+    {
+      "name": "Eva Moore",
+      "email": "eva.moore@example.com",
+      "password": "techpass4",
+      "role": "technician",
+      "workstatus": "available"
+    },
+    {
+      "name": "Frank Harris",
+      "email": "frank.harris@example.com",
+      "password": "techpass5",
+      "role": "technician",
+      "workstatus": "available"
+    },
+    {
+      "name": "Grace Kim",
+      "email": "grace.kim@example.com",
+      "password": "techpass6",
+      "role": "technician",
+      "workstatus": "available"
+    },
+    {
+      "name": "Henry Walker",
+      "email": "henry.walker@example.com",
+      "password": "techpass7",
+      "role": "technician",
+      "workstatus": "available"
+    },
+    {
+      "name": "Ivy Adams",
+      "email": "ivy.adams@example.com",
+      "password": "techpass8",
+      "role": "technician",
+      "workstatus": "unavailable"
+    },
+    {
+      "name": "Jake Turner",
+      "email": "jake.turner@example.com",
+      "password": "techpass9",
+      "role": "technician",
+      "workstatus": "available"
+    },
+    {
+      "name": "Kate Miller",
+      "email": "kate.miller@example.com",
+      "password": "techpass10",
+      "role": "technician",
+      "workstatus": "available"
+    }
 ````
 
 ## 🖥️ Admin Dashboard View
