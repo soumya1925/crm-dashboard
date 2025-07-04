@@ -1,10 +1,39 @@
 # 🚀 CRM Dashboard – Frontend
 
 Welcome to the **CRM Dashboard Frontend**!  
-This project is divided into two main user views:
+This project provides a streamlined dashboard system for managing and tracking service operations, featuring:
 
-- **Admin View** – Full control and navigation access.
-- **Technician View** – Limited access with role-specific features.
+- **Admin View** – Full access to device management, training modules, service visits, technician tracking, and more.
+- **Technician View** – Simplified interface to handle assigned tickets and submit reports.
+
+---
+
+## 🚀 Live Demo
+
+You can view the deployed project here:  
+👉 [CRM Dashboard Frontend – Live](https://crm-dashboard-frontend-6f7b1zzd3-soumya-rouls-projects.vercel.app)
+
+## 🌐 Deployment Notes
+
+
+> ⚠️ **Important:** If you're visiting the deployed link, **do not refresh or reload the page**.  
+> Due to Vite routing and static hosting limitations (e.g., on Vercel), refreshing may cause a `404 Not Found`.
+
+---
+
+## 💻 Running the Project Locally
+
+If you'd like to run the project on your local machine:
+
+1. Clone the repository.
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ````
+``` Start the development server:```
+
+npm run dev
 
 ---
 
