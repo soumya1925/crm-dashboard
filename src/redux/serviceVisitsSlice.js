@@ -7,7 +7,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 export const fetchServiceVisits = createAsyncThunk(
   'serviceVisits/fetchServiceVisits',
   async () => {
-    // Try to load devicedata from localStorage
+    
     const localDeviceData = localStorage.getItem('devicedata');
     let deviceData = [];
 
@@ -22,7 +22,7 @@ export const fetchServiceVisits = createAsyncThunk(
       }
     }
 
-    // If localStorage is empty or invalid, fetch from devicedata.json
+   
     if (deviceData.length === 0) {
       const response = await fetch('/devicedata.json');
       deviceData = await response.json();

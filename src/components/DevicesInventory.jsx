@@ -75,6 +75,7 @@ export default function DevicesInventory() {
             <MenuItem value="Active">Active</MenuItem>
             <MenuItem value="Offline">Offline</MenuItem>
             <MenuItem value="Maintenance">Maintenance</MenuItem>
+            <MenuItem value="Online">Online</MenuItem>
           </Select>
         </FormControl>
 
