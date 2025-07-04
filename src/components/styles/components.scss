@@ -1,0 +1,113 @@
+.sidebar {
+  width: 240px;
+  flex-shrink: 0;
+
+  .MuiDrawer-paper {
+    width: 240px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 64px;
+      font-size: 24px;
+      font-weight: bold;
+      color: #1976d2;
+      margin-bottom: 16px;
+
+      h2 {
+        font-family: 'Cursive', 'Brush Script MT', cursive;
+        font-size: 28px;
+        color: #1976d2;
+      }
+    }
+
+    .sidebar-item {
+      cursor: pointer;
+
+      &:hover {
+        background-color: #e0e0e0;
+
+        .sidebar-icon {
+          color: #1976d2;
+        }
+      }
+    }
+
+    .sidebar-icon {
+      color: inherit;
+    }
+  }
+}
+
+/* Header Styling */
+.header {
+  background: linear-gradient(to right, #ffffff, #1976d2);
+  color: #fff;
+
+  .header-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    flex-wrap: wrap; // allow wrapping on smaller screens
+  }
+
+  .search-bar {
+    background-color: white;
+    padding: 4px 10px;
+    border-radius: 4px;
+  
+    input {
+      border: none;
+      outline: none;
+      padding: 5px;
+      width: 250px;
+  
+      @media (max-width: 768px) {
+        width: 120px; // smaller input on mobile
+      }
+    }
+  }
+  
+}
+  
+.dashboard {
+  padding: 2rem;
+  background: #f8f9fb;
+}
+
+.dashboard-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.grid-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.highlight-card {
+  text-align: center;
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.chart-card h6 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #555;
+}
